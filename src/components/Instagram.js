@@ -51,15 +51,7 @@ const Instagram = () => {
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
       </div>
-      <div className="row">
-        <div className="col">
-          <TwitterTimelineEmbed
-            sourceType="profile"
-            screenName="jazzysinghrealtor"
-            options={{ height: 400 }}
-          />
-        </div>
-      </div>
+    
       <div className="row spacing">
         <div className="col center">
           <form action="https://www.realsatisfied.com/Jazzy-Singh">
