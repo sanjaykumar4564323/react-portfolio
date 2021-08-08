@@ -1,0 +1,260 @@
+.relative {
+  position: relative;
+  width: 2000px;
+  height: 600px;
+  border: 3px solid #73ad21;
+}
+
+@keyframes welcomeAn {
+  0% {
+    transform: rotate(xx);
+    opacity: 0;
+  }
+  34% {
+    transform: rotate(xx) scale(1.5);
+    opacity: 0.2;
+    color: #012269;
+  }
+  38% {
+    transform: rotate(xx) scale(1.7);
+    color: #012269;
+  }
+  42% {
+    transform: rotate(xx) scale(1.5);
+    color: #012269;
+  }
+  99% {
+    transform: rotate(xx);
+    color: #012269;
+  }
+}
+
+.welcomeA {
+  animation: welcomeAn 3s 1 0s linear;
+}
+
+.welcome {
+  font-size: 80px;
+  font-family: "Rubik", sans-serif;
+}
+
+.padding-center {
+  padding-top: 50px;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.zillow {
+  width: 100px;
+  height: auto;
+}
+
+.realtor {
+  width: 150px;
+  height: auto;
+}
+
+.linkden {
+  width: 90px;
+  height: auto;
+}
+
+.spacing {
+  padding-top: 100px;
+}
+
+.coldwell {
+  width: 150px;
+  height: auto;
+}
+
+.round {
+  width: 400px;
+  height: auto;
+  padding-right: 5px;
+  border-radius: 50%;
+  border: 10px solid #012269;
+}
+
+.appear-main {
+  width: 200px;
+  height: auto;
+}
+
+.appear-med {
+  width: 150px;
+  height: auto;
+}
+
+.appear {
+  width: 100px;
+  height: auto;
+}
+
+.p-text {
+  width: 50%;
+  letter-spacing: 3px;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+}
+
+.char {
+  font-size: 40px;
+  height: 40px;
+  animation: an 1s ease-out 1 both;
+  display: inline-block;
+}
+
+@keyframes an {
+  from {
+    opacity: 0;
+    transform: perspective(500px) translate3d(-35px, -40px, -150px)
+      rotate3d(1, -1, 0, 35deg);
+  }
+  to {
+    opacity: 1;
+    transform: perspective(500px) translate3d(0, 0, 0);
+  }
+}
+.mylink {
+  position: absolute;
+  z-index: 150;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: right;
+  padding: 0.6rem;
+}
+
+.mylink a {
+  font-family: Calibri;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+  text-decoration: none;
+}
+.mylink a:hover {
+  opacity: 1;
+}
+
+@keyframes rise {
+  0% {
+    transform: rotate(xx) translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(xx);
+  }
+}
+
+.upward {
+  animation: rise 1s 1 0s ease-in;
+}
+
+#text {
+  display: none;
+}
+
+@keyframes statement {
+  0% {
+  }
+  22% {
+    transform: scale(1.4);
+  }
+  35% {
+    transform: rotate(5deg) scale(1.4);
+  }
+  37% {
+    transform: rotate(-5deg) scale(1.4);
+  }
+  39% {
+    transform: rotate(5deg) scale(1.4);
+  }
+  41% {
+    transform: rotate(-5deg) scale(1.4);
+  }
+  43% {
+    transform: rotate(5deg) scale(1.4);
+  }
+  47% {
+    transform: rotate(-5deg) scale(1.4);
+  }
+  52% {
+    transform: rotate(5deg) scale(1.4);
+  }
+  58% {
+    transform: rotate(-5deg) scale(1.4);
+  }
+  63% {
+    transform: rotate(3deg) scale(1.4);
+  }
+  69% {
+    transform: rotate(-2deg) scale(1.4);
+  }
+  74% {
+    transform: rotate(1deg) scale(1.4);
+  }
+  81% {
+    transform: scale(1.4);
+  }
+  99% {
+  }
+}
+
+.state {
+  transition: 0.3s;
+}
+
+.state:hover {
+  animation: statement 3s 1 0s linear;
+}
+
+.gold {
+  color: goldenrod;
+}
+
+@media all and (max-width: 635px) {
+  .welcome {
+    font-size: 50px;
+  }
+  .round {
+    width: 200px;
+  }
+  .zillow {
+    width: 50px;
+    height: auto;
+  }
+
+  .realtor {
+    width: 70px;
+    height: auto;
+  }
+
+  .linkden {
+    width: 40px;
+    height: auto;
+  }
+  .coldwell {
+    width: 70px;
+    height: auto;
+  }
+  .make-smaller {
+    font-size: 30px;
+  }
+  .p-text {
+    font-size: 15px;
+    width: 80%;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+  }
+  .dissaper {
+    font-size: 15px;
+  }
+}

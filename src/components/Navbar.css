@@ -1,0 +1,10 @@
+.logo {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+}
+
+@media all and (max-width: 635px) {
+  .logo {
+    font-size: 20px;
+  }
+}

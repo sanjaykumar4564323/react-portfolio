@@ -1,0 +1,100 @@
+.middle {
+  text-align: center;
+}
+
+@keyframes Check {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.biggest {
+  animation: Check 9s 1 0s linear;
+}
+
+@keyframes tiny {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.medium {
+  animation: tiny 8s 1 0s linear;
+}
+
+@keyframes mini {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(xx);
+    opacity: 1;
+  }
+}
+
+.small {
+  animation: mini 6s 1 0s linear;
+}
+
+.size {
+  font-size: 45px !important;
+}
+
+@keyframes Dream {
+  0% {
+  }
+  10% {
+    color: red;
+  }
+  23% {
+    color: yellow;
+  }
+  35% {
+    color: blue;
+  }
+  51% {
+    color: green;
+  }
+  67% {
+    color: pink;
+  }
+  81% {
+    color: brown;
+  }
+  100% {
+  }
+}
+
+.dream {
+  animation: Dream 20s infinite 0s linear;
+}
+
+@media all and (max-width: 635px) {
+  .appear {
+    display: none;
+  }
+  .appear-main {
+    display: none;
+  }
+  .appear-med {
+    display: none;
+  }
+  .down-a-bit {
+    padding-top: 75px;
+  }
+}

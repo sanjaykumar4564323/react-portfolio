@@ -1,0 +1,95 @@
+.spacing {
+  padding-top: 100px;
+}
+
+.facebook1 {
+  width: 500px;
+  height: 614px;
+  border: "3px solid ghostwhite";
+  overflow: "hidden";
+}
+
+.facebook2 {
+  width: 500px;
+  height: 615px;
+  border: "3px solid ghostwhite";
+  overflow: "hidden";
+}
+
+.facebook3 {
+  width: 500px;
+  height: 551px;
+  border: "3px solid ghostwhite";
+  overflow: "hidden";
+}
+
+.facebook4 {
+  width: 500px;
+  height: 599px;
+  border: "3px solid ghostwhite";
+  overflow: "hidden";
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bouncy {
+   animation: bouncy 5s infinite linear;
+   position: relative;
+}
+
+@keyframes bouncy {
+  0% {
+    top: 0em;
+  }
+  40% {
+    top: 0em;
+  }
+  43% {
+    top: -0.9em;
+  }
+  46% {
+    top: 0em;
+  }
+  48% {
+    top: -0.4em;
+  }
+  50% {
+    top: 0em;
+  }
+  100% {
+    top: 0em;
+  }
+}
+
+@media all and (max-width: 635px) {
+  .facebook1 {
+    width: 335px;
+    height: 614px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .facebook2 {
+    width: 335px;
+    height: 615px;
+    border: none;
+  }
+
+  .facebook3 {
+    width: 335px;
+    height: 451px;
+    border: none;
+  }
+
+  .facebook4 {
+    width: 335px;
+    height: 499px;
+    border: none;
+  }
+}
