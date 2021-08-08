@@ -25,7 +25,7 @@ const CenterText = () => {
             <a
               href="https://www.zillow.com/profile/jazzy-singh/"
               target="blank">
-              <img className="zillow" src="https://i.imgur.com/rZ3ODf8.png" />
+              <img className="zillow" src="https://i.imgur.com/rZ3ODf8.png" alt="img" />
             </a>
             <a
               href="https://www.realtor.com/realestateagents/jazzy-singh_marysville_oh_3672762_085179143"
@@ -33,16 +33,17 @@ const CenterText = () => {
               <img
                 className="realtor"
                 src="https://www.nar.realtor/sites/default/files/downloadable/office_R_blk.png"
+                alt="img"
               />
             </a>
             <a href="https://www.linkedin.com/in/jazzysingh/" target="blank">
               <img
                 className="linkden"
-                src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="img"
               />
             </a>
             <a href="https://jazzysingh.cbintouch.com" target="blank">
-              <img className="coldwell" src="https://i.imgur.com/I9SbWIY.png" />
+              <img className="coldwell" src="https://i.imgur.com/I9SbWIY.png" alt="img"/>
             </a>
           </div>
           <div className="row center spacing">
