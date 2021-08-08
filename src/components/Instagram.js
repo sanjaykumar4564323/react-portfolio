@@ -1,6 +1,5 @@
 import React from "react";
 import "./Instagram.css";
-import { TwitterTweetEmbed, TwitterTimelineEmbed } from "react-twitter-embed";
 
 const Instagram = () => {
   return (
